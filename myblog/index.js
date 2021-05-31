@@ -10,6 +10,8 @@ app.set('html',require('ejs').renderFile);
 
 // 静态资源配置
 app.use(express.static('static'));
+
+app.use(/\/(index)?/,require('./routes/index'));
 // 监听服务器
 app.listen(3000);
 
