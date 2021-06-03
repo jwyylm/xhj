@@ -7,6 +7,9 @@ const article = require('../middleware/article')
 const category = require('../middleware/category')
 const auth = require('../middleware/auth')
 
+// const用于定义常量，不可以修改，而且必须初始化。
+// var用于定义变量
+
 // 首页子应用
 const indexApp = express()
 
