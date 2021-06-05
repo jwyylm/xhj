@@ -2,7 +2,6 @@
  * 后台首页
  */
 const express = require('express')
-const user = require('../../middleware/user')
 const category = require('../../middleware/category')
 const article = require('../../middleware/article')
 
