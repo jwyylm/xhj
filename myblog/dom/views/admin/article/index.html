@@ -105,13 +105,6 @@
                                             <th><%= article.id %> </th>
                                             <td><%= article.title %> </td>
                                             <td>
-                                                <% if (article.thumbnail) { %>
-                                                <i class="iconfont icon-photo" data-toggle="popover"
-                                                    data-content="<img src='<%= article.thumbnail %> ' width='200'>"></i>
-
-                                                <% } %>
-                                            </td>
-                                            <td>
                                                 <div class="custom-control custom-switch">
                                                     <input type="checkbox" class="custom-control-input"
                                                         value="<%=article.id%>" id="hot<%=article.id%>"
