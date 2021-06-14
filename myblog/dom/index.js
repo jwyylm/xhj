@@ -44,7 +44,6 @@ app.use((req, res, next) => {
 // 调用首页子应用
 
 // app.use(/\/(index)?/, require('./router/index'))
-
 app.use('/index', require('./router/index'))
 app.use('/', require('./router/index'))
 // 调用文章子应用
